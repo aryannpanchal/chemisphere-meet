@@ -4,7 +4,6 @@ import { useState } from 'react';
 import {
   CallControls,
   CallParticipantsList,
-  CallStatsButton,
   CallingState,
   PaginatedGridLayout,
   SpeakerLayout,
@@ -12,10 +11,8 @@ import {
 } from '@stream-io/video-react-sdk';
 import {
   Chat,
-  Channel,
   MessageList,
   MessageInput,
-  Window,
 } from 'stream-chat-react';
 import 'stream-chat-react/dist/css/v2/index.css';
 import { useRouter, useSearchParams } from 'next/navigation';
