@@ -11,8 +11,9 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
-  description: "Video calling App",
+  title: "Chemisphere Meetings",
+  description: "**Chemisphere Meet** is a dedicated online platform for attending live chemistry classes, interactive doubt sessions, and recorded lectures. Designed for JEE, NEET, and board exam aspirants, it ensures seamless learning with expert guidance, high-quality video, and real-time collaboration tools to boost student performance and engagement.
+  ",
   icons: {
     icon: "/icons/logo.svg",
   },
