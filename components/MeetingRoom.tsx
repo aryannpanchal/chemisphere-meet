@@ -9,10 +9,15 @@ import {
   PaginatedGridLayout,
   SpeakerLayout,
   useCallStateHooks,
+} from '@stream-io/video-react-sdk';
+import {
   Chat,
+  Channel,
   MessageList,
   MessageInput,
-} from '@stream-io/video-react-sdk';
+  Window,
+} from 'stream-chat-react';
+import 'stream-chat-react/dist/css/v2/index.css';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Users, LayoutList, MessageCircle } from 'lucide-react';
 
